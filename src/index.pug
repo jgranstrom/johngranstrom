@@ -1,0 +1,52 @@
+doctype html
+html(lang='en-us')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='Content-Type', content='text/html; charset=utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no')
+    meta(name='description', content='~/tech ~/product ~/management')
+    link(rel='shortcut icon', type='image/png', href='../assets/favicon.ico')
+    title John Granström
+    style.
+      a,section{color:#fff}
+  body
+    canvas#mazeA
+    canvas#mazeB
+    canvas#pathA
+    canvas#pathB
+
+    section
+      .row.column
+        .title John Granström
+        div ~/tech ~/product ~/management
+
+      .row granstrom.john@gmail.com
+
+      .row
+        a.i(href='https://linkedin.com/in/johngranstrom')
+          svg(viewBox='0 1 32 32')
+            path(d='M12 12h5.535v2.837h.079c.77-1.381 2.655-2.837 5.464-2.837C28.92 12 30 15.637 30 20.367V30h-5.769v-8.54c0-2.037-.042-4.657-3.001-4.657-3.005 0-3.463 2.218-3.463 4.509V30H12V12zM2 12h6v18H2V12zM8 7a3 3 0 1 1-6 0 3 3 0 0 1 6 0z')
+        a.i(href='https://github.com/jgranstrom')
+          svg(viewBox='0 0 32 32')
+            path(d='M16 .395c-8.836 0-16 7.163-16 16 0 7.069 4.585 13.067 10.942 15.182.8.148 1.094-.347 1.094-.77 0-.381-.015-1.642-.022-2.979-4.452.968-5.391-1.888-5.391-1.888-.728-1.849-1.776-2.341-1.776-2.341-1.452-.993.11-.973.11-.973 1.606.113 2.452 1.649 2.452 1.649 1.427 2.446 3.743 1.739 4.656 1.33.143-1.034.558-1.74 1.016-2.14-3.554-.404-7.29-1.777-7.29-7.907 0-1.747.625-3.174 1.649-4.295-.166-.403-.714-2.03.155-4.234 0 0 1.344-.43 4.401 1.64a15.353 15.353 0 0 1 4.005-.539c1.359.006 2.729.184 4.008.539 3.054-2.07 4.395-1.64 4.395-1.64.871 2.204.323 3.831.157 4.234 1.026 1.12 1.647 2.548 1.647 4.295 0 6.145-3.743 7.498-7.306 7.895.574.497 1.085 1.47 1.085 2.963 0 2.141-.019 3.864-.019 4.391 0 .426.288.925 1.099.768C27.421 29.457 32 23.462 32 16.395c0-8.837-7.164-16-16-16z')
+        a.i(href='https://stackoverflow.com/users/2154141/jgranstrom')
+          svg(viewBox='0 0 32 32')
+            path(d='M32 20v12H0V20h4v8h24v-8zM6 22h20v4H6zm.473-4.329l.866-3.905 19.526 4.328-.866 3.905zm2.266-8.029l1.69-3.625 18.126 8.452-1.69 3.625zm22.252 1.654l-2.435 3.173L12.689 2.294 14.45 0h1.82z')
+        a.i(href='https://twitter.com/JohnGranstrom')
+          svg(viewBox='-1 0 32 32')
+            path(d='M32 7.075a12.941 12.941 0 0 1-3.769 1.031 6.601 6.601 0 0 0 2.887-3.631 13.21 13.21 0 0 1-4.169 1.594A6.565 6.565 0 0 0 22.155 4a6.563 6.563 0 0 0-6.563 6.563c0 .512.056 1.012.169 1.494A18.635 18.635 0 0 1 2.23 5.195a6.56 6.56 0 0 0-.887 3.3 6.557 6.557 0 0 0 2.919 5.463 6.565 6.565 0 0 1-2.975-.819v.081a6.565 6.565 0 0 0 5.269 6.437 6.574 6.574 0 0 1-2.968.112 6.588 6.588 0 0 0 6.131 4.563 13.17 13.17 0 0 1-9.725 2.719 18.568 18.568 0 0 0 10.069 2.95c12.075 0 18.681-10.006 18.681-18.681 0-.287-.006-.569-.019-.85A13.216 13.216 0 0 0 32 7.076z')
+        a.i(href='https://visualcv.com/john-granstrom')
+          svg(viewBox='-1 0 32 32')
+            path(d='M27 0H3C1.35 0 0 1.35 0 3v26c0 1.65 1.35 3 3 3h24c1.65 0 3-1.35 3-3V3c0-1.65-1.35-3-3-3zm-1 28H4V4h22v24zM8 18h14v2H8zm0 4h14v2H8zm2-13a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm5 3h-4c-1.65 0-3 .9-3 2v2h10v-2c0-1.1-1.35-2-3-2z')
+        a.i(href='https://medium.com/@johngranstrom')
+          svg(viewBox='0 0 32 32')
+            path(d='M0 32C4 20 14.469 0 32 0c-8.219 6.594-12 22-18 22H8L2 32H0z')
+
+    footer
+      a(href='https://github.com/jgranstrom/johngranstrom') Psst, I am open-source
+
+    a.i#seed
+      svg(viewBox='0 0 32 32')
+        path(d='M8 6L4 2H2v2l4 4zm2-6h2v4h-2zm8 10h4v2h-4zm2-6V2h-2l-4 4 2 2zM0 10h4v2H0zm10 8h2v4h-2zm-8 0v2h2l4-4-2-2zm29.563 9.563L11.684 7.684a1.505 1.505 0 0 0-2.121 0L7.684 9.563a1.505 1.505 0 0 0 0 2.121l19.879 19.879a1.505 1.505 0 0 0 2.121 0l1.879-1.879a1.505 1.505 0 0 0 0-2.121zM15 17l-6-6 2-2 6 6-2 2z')
+
+    script(src='./index.ts')

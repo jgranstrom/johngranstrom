@@ -1,0 +1,97 @@
+body, html {
+  background: black;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 15px;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+canvas {
+  cursor: crosshair;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  transform: scale(1.01);
+
+  &.active { opacity: 1; transform: scale(1); }
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  align-items: center;
+}
+
+a {
+  background-color: transparent;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  padding: 0.5em;
+  border-radius: 5px;
+
+  &:hover {
+    color: black;
+    background-color: white;
+    svg { fill: black; }
+
+    &:active { background-color: #ccc; }
+  }
+}
+
+a.i {
+  width: 1.5em;
+  height: 1.5em;
+
+  &:not(:last-child) { margin-right: 0.5rem; }
+}
+
+#seed, footer {
+  cursor: pointer;
+  position: absolute;
+  bottom: 3rem;
+}
+
+footer { left: 50%; transform: translateX(-50%); font-size: 0.8em; margin-bottom: 1em; }
+
+#seed {
+  right: 3rem;
+  background-color: white;
+  svg { fill: black; }
+
+  &:hover {
+    background-color: black;
+    svg { fill: white; }
+
+    &:active { background-color: #333; }
+  }
+}
+
+.row {
+  display: flex;
+  margin-bottom: 2.5rem;
+  &.column {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.title {
+  font-size: 2em;
+  margin-bottom: 0.5rem;
+}
+
+svg {
+  stroke-width: 0;
+  fill: white;
+  transition: stroke 0.3s ease, fill 0.3s ease;
+}
