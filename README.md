@@ -1,6 +1,6 @@
 # <span><img src="https://svgshare.com/i/8it.svg" width="23px" height="23px">&nbsp;Personal Website</span>
 
-This is my simple minimal digital business card. It includes a generated maze in the background and follows the mouse or touch movements of the user with a path through the maze.
+This is my simple minimal digital business card. It includes a generated maze in the background and follows the mouse or touch movements of the user with a path through the maze. For more details feel free to read the [accompanying blog post](https://medium.com/@johngranstrom/making-a-digital-business-card-in-5-kb-77dca36ce31b).
 
 ### Maze generation
 
